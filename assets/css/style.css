@@ -1,0 +1,71 @@
+/*--------------------Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/Main.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    color: #d5ecf1;
+    background-color: rgb(227, 235, 235);
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+}
+
+.nav-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    
+    }
+
+    .nav-link {
+    color: #525050;
+   font-weight: bold;
+  
+
+}
+            
+
+
+
+
+.navbar-brand {
+    
+    font-weight: bold;
+    font-size: 150%;
+    color: #525050;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.mid-header {
+    color: #525050;
+    font-weight: bold;
+    font-size: 220%;
+
+}
+
+.lead {
+    color: #525050;
+    font-weight: bold;
+}
+
