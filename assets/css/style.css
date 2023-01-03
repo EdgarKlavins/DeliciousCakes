@@ -18,11 +18,20 @@ body {
 }
 
 .navbar {
-    color: #d5ecf1;
-    background-color:rgb(179, 190, 190);
+    color: #181a1a;
+    background-color:rgb(226, 159, 14);
     margin-bottom: 0;
     border: 0;
     width: 100%;
+}
+
+.dropdown-menu {
+    background-color: rgb(226, 159, 14);
+}
+
+.navbar-toggler-icon {
+    color: #525050;
+    z-index: 1;
 }
 
 .nav-container {
@@ -40,13 +49,22 @@ body {
    font-weight: bold;
   }
 
+  .nav-link:hover {
+    color:rgb(17, 17, 17);
+  }
+
   
             
 .navbar-brand {
     
     font-weight: bold;
-    font-size: 150%;
-    color: #525050;
+    font-size: 200%;
+    color: #f5f0f0;
+    padding-left: 10px;
+}
+
+.navbar-brand:hover {
+    color:rgb(17, 17, 17);
 }
 
 .jumbotron {
@@ -67,8 +85,16 @@ body {
 
 
 .quotes-container {
-    background-color: rgb(179, 190, 190);
+    background-color: rgb(226, 159, 14);
 }
+
+.cakes-container {
+    background: url("/assets/images/Cake.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 100vh
+    
+}
+
 
 .History-text {
     font-family: 'Roboto', sans-serif;
@@ -87,7 +113,7 @@ body {
 }
 
 .fa-birthday-cake {
-    color: rgb(177, 177, 36);
+    color: rgb(114, 114, 111);
 }
 
 .page-header {
@@ -107,6 +133,66 @@ body {
 
 .btn-grey {
     color: #525050;
-    background-color: rgb(179, 190, 190);
+    background-color: rgb(226, 159, 14);
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: rgb(226, 159, 14) ;
+}
+
+#photo {
+    clear: both;
+    column-count: 4;
+    column-gap: 0px;
+}
+    
+#photo img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover contain;
 
 }
+    
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+      column-count: 1;
+    }
+  }
+
+  footer {
+    margin-bottom: 100px;
+    margin-top: 0;
+    padding-top: 0;
+    border-bottom: 0;
+    
+  }
+
+  .explanation {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 800px){
+    #photo{
+        column-count: 1;
+    }
+}
+
+  
+  

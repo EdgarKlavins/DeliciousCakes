@@ -12,11 +12,13 @@
 </head>
 
 <body>
+    <div id="page-container">
+        <div id="content-wrap">
     <!--Nav-->
     <div class="container-fluid nav-container">
     <nav class="navbar ml-auto navbar-expand-sm">
-        <a href="/" class="navbar-brand">
-                    Delicious cakes</a>
+        <a class="navbar-brand">
+                    <h2>Delicious cakes</h2></a>
 
         <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
@@ -24,20 +26,18 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Cakes
         </a>
                     <div class="dropdown-menu end-0" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Birthday cakes</a>
-                        <a class="dropdown-item" href="#">Wedding cakes</a>
-                        <a class="dropdown-item" href="#">Sculpture cakes</a>
+                        <a class="dropdown-item" href="#cakes">Birthday cakes</a>
+                        <a class="dropdown-item" href="#cakes">Wedding cakes</a>
+                        <a class="dropdown-item" href="#cakes">Sculpture cakes</a>
                     </div>
                 </li>
-
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Order</a></li>
-            </ul>
+               </ul>
         </div>
         
         
@@ -64,16 +64,18 @@
         <section class="quotes">
             <div class="row">
                 <div class="col-12 page-header">
-                    <h2 class="text-uppercase">About Us:</h2>
-                    <hr />
+                    <h2 class="text-uppercase" id="about">About Us:</h2>
+                    <br>
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
                             <img src="assets/images/Ceo.jpg" class="rounded-circle mr-3" height=100 width=100>
                         </div>
+                        <br>
                         <div class="media-body">
                             <blockquote class="blockquote">
                                 <p class="quote-text">Our cakes are handmade with natural ingredients, and whilst we are ordinary people, we want to create extraordinary things. We want to play our part to bring people back into local communities. We can’t imagine doing anything more gratifying than baking our, and your, cakes.</p>
@@ -88,6 +90,7 @@
                         <div class="d-none d-sm-block">
                             <img src="assets/images/Chef.jpg" class="rounded-circle mr-3" height=100 width=100>
                         </div>
+                        <br>
                         <div class="media-body">
                             <blockquote class="blockquote">
                                 <p class="quote-text">We put love and compassion in the process. We pray for the food to be beneficial for the people who eat it. And then when they go to the kitchen, same thing, it's a mindful exercise, it's a meditation.</p>
@@ -101,44 +104,62 @@
         </section>
         <br>
         <p class="History-text">Delicious Cakes was formed as a partnership between Sara and Ian to make top quality cakes for the existing bakeries. The success of the product led to the opening of six bakeries and more than 150 wholesale accounts. The product range was gradually expanded to include very extraordinary cakes and savouries which share our bread philosophy. The best ingredients, no additives and traditional recipes.Whatever you’re looking for we have it.Your special day deserves a very special cake! Choose one of our ready-to-order designs or arrange a consultation to create a completely bespoke wedding cake. See our gallery for inspiration.</p>
+        <br>
+        <p class="addres-information">Today we are proud to tell you, that you can find us in 3 biggest cities</p>
+         <ul>
+            <li>
+                Birmingham - B101 9TH 22 Harrison street
+            </li>
+            <li>
+                London L98 6PR 67 Bradford road
+            </li>
+            <li>Manchester M9 2TC Dyas Avenue
+
+            </li>
+         </ul>
+         <br>
+         <p>You can also find us on social media (please see bellow)</p>
+        
     </div>
     <!-- /About Us -->
-
+    
     <!-- /Cakes -->
-    <div class="features-container content-container">
-        <section class="features">
+    <div class="container cakes-container content-container">
+        <section class="cakes">
             <div class="row">
                 <div class="col-12 page-header">
-                    <h2 class="text-uppercase">Cakes:</h2>
+                    <h2 class="text-uppercase" id="cakes">Cakes:</h2>
                     <hr />
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3><i class="fa fa-birthday-cake" aria-hidden="true"></i> Birthday cakes <span class="badge badge-success">New!</span></h3>
+                        <h3><i class="fa fa-birthday-cake" aria-hidden="true"></i> Birthday cakes</h3>
                         <p>Whatever their age, wish them a happy birthday with a cake that tastes as good as it looks.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        <p><a class="btn btn-sm btn-dark" href="gallery.html">See gallery</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
                         <h3><i class="fa fa-birthday-cake d-none d-sm-inline"></i> Wedding cakes</h3>
                         <p>Choose from our carefully hand-crafted wedding cakes to complete your special day. Whether you're planning an intimate wedding or a celebration to renew your vows, here you'll find our luxurious collection of elegant one-tier wedding cakes and two-tier wedding cakes. All our wedding cakes are handmade to order and can be delivered to your door. You can book your delivery date up to 90 days in advance</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        <p><a class="btn btn-sm btn-dark" href="gallery.html">See gallery</a></p>
                     </div>
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
                         <h3><i class="fa fa-birthday-cake d-none d-sm-inline"></i> Sculpture cakes</h3>
                         <p>Creative, custom designed 3D Sculpted Cakes – custom designed by yourself & cake design experts.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        <p><a class="btn btn-sm btn-dark" href="gallery.html">See gallery</a></p>
                     </div>
                 </div>
             </div>
-        </section>
+         </section>
+         
     </div>
-    <!-- /.features -->
+    <!-- /.Cakes -->
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
@@ -157,23 +178,35 @@
                             <small id="emailHelp" class="form-text text-muted">Please fill registry form and our family member gonna contact you.</small>
                         </div>
                         <div class="form-group">
-                            <label for="password">Name</label>
-                            <input type="password" class="form-control" id="password" placeholder="Name">
+                            <label for="f-name">Name</label>
+                            <input type="text" class="form-control" id="f-name" placeholder="Name">
                         </div>
                         <div class="form-group">
-                            <label for="repeatPassword">Phone number</label>
-                            <input type="password" class="form-control" id="repeatPassword" placeholder="Phone Number">
+                            <label for="p-number">Phone number</label>
+                            <input type="text" class="form-control" id="p-number" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="btn btn-success">Book a call</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<footer id="footerct">
+    <ul class="social-networks">
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
+    </ul>
+
+    </footer>
+    <p class="explanation">This website is created as a part of a training for educational purposes.</p>
+</div>
 </body>
 
 </html>
