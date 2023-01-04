@@ -38,6 +38,21 @@ Photoshop was used for resizing images and editing photos for the website.
 </ul>
 <br>
 
+
+## Design
+### Colour Scheme
+The two main colours used are orange rgb(226, 159, 14) and grey #525050 
+
+### Typography
+The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+### Imagery
+Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern and energetic 
+
+Most of images are takken from 
+Unsplash: https://unsplash.com
+
+
+
 ## Testing
 
 <p>
@@ -47,3 +62,61 @@ Photoshop was used for resizing images and editing photos for the website.
             alt="Valid CSS!" />
     </a>
 </p>
+<br>
+<img src="assets/images/HTML-check.png">
+
+# Deployment
+
+## GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
+
+<OL><li>Log in to GitHub and locate the GitHub Repository</li>
+<li>At the top of the Repository (not top of page), locate the "Settings" Button on the menu.</li>
+
+
+<li>Scroll down the Settings page until you locate the "GitHub Pages" Section.</li>
+<li>Under "Source", click the dropdown called "None" and select "Master Branch".</li>
+<li>The page will automatically refresh.</li>
+<li>Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.</li>
+</OL>
+<br>
+
+## Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+<ol>
+<li>Log in to GitHub and locate the GitHub Repository</li>
+<li>At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.</li>
+<li>You should now have a copy of the original repository in your GitHub account.</li></ol>
+
+## Making a Local Clone
+<ol><li>Log in to GitHub and locate the GitHub Repository</li>
+<li>Under the repository name, click "Clone or download".</li>
+<li>To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.</li>
+<li>Open Git Bash</li>
+<li>Change the current working directory to the location where you want the cloned directory to be made.</li>
+<li>Type git clone, and then paste the URL you copied in Step 3.</li>
+<br>
+
+> $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+<li>Press Enter. Your local clone will be created.</li>
+
+>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY 
+
+> Cloning into `CI-Clone`...
+
+> remote: Counting objects: 10, done.
+
+> remote: Compressing objects: 100% (8/8), done.
+
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+
+> Unpacking objects: 100% (10/10), done.
+
+</ol>
+
+<br>
+
+## Acknowledgements
+
+
+Thanks to Code institute and Bristol College for for their support.
