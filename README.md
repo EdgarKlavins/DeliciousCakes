@@ -7,6 +7,14 @@
 ###  I have created this web page as a part of  my Milestone Project 1 submission. All names and addreses are not real.
 <br>
 
+## Live Project
+
+[My live project](https://edgarklavins.github.io/DeliciousCakes/)
+<br>
+
+## Repository
+[My repository](https://github.com/EdgarKlavins/DeliciousCakes)
+
 # Technologies Used
 
 ## Languages used
