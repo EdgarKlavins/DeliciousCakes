@@ -179,7 +179,7 @@ body {
 #photo img {
     width: 600px;
     height: 600px;
-    object-fit: cover contain;
+    object-fit: cover ;
 
 }
     
