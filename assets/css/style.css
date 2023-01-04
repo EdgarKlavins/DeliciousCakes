@@ -3,6 +3,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    
 }
 
 .callout-container {
@@ -92,6 +94,9 @@ body {
     background: url("/assets/images/Cake.jpg") no-repeat center fixed;
     background-size: cover;
     height: 100vh
+    position: absolute;
+    
+    
     
 }
 
@@ -151,8 +156,11 @@ footer {
 .social-networks i {
     font-size: 200%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
+    margin-top: 1px;
+    margin-bottom: 0;
     color: rgb(226, 159, 14) ;
+    
 }
 
 #photo {
@@ -178,15 +186,15 @@ footer {
 
   footer {
     margin-bottom: 100px;
-    margin-top: 0;
+    margin-top: auto;
     padding-top: 0;
     border-bottom: 0;
+    bottom:0;
+        
     
   }
 
-  .explanation {
-    text-align: center;
-  }
+  
 
   @media screen and (max-width: 800px){
     #photo{
