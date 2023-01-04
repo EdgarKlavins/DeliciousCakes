@@ -99,8 +99,9 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 > $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 <li>Press Enter. Your local clone will be created.</li>
+<br>
 
->$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY 
+
 
 > Cloning into `CI-Clone`...
 
