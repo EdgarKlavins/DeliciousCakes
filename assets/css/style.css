@@ -20,11 +20,16 @@ body {
 }
 
 .navbar {
-    color: #181a1a;
-    background-color:rgb(226, 159, 14);
+    color: rgb(17, 17, 17);
+    background-color:rgb(226, 159, 14) ;
     margin-bottom: 0;
     border: 0;
     width: 100%;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    z-index: 1;
 }
 
 .dropdown-menu {
@@ -56,6 +61,7 @@ body {
   }
 
   
+    
             
 .navbar-brand {
     
@@ -67,6 +73,10 @@ body {
 
 .navbar-brand:hover {
     color:rgb(17, 17, 17);
+}
+
+.fixed-top {
+    z-index: 1030;
 }
 
 .jumbotron {
@@ -94,7 +104,7 @@ body {
     background: url("/assets/images/Cake.jpg") no-repeat center fixed;
     background-size: cover;
     height: 100vh
-    position: absolute;
+    
     
     
     
@@ -141,9 +151,6 @@ body {
     background-color: rgb(226, 159, 14);
 }
 
-footer {
-    height: 150px;
-}
 
 .social-networks {
     text-align: center;
@@ -185,11 +192,13 @@ footer {
   }
 
   footer {
-    margin-bottom: 100px;
+    
     margin-top: auto;
     padding-top: 0;
     border-bottom: 0;
     bottom:0;
+    background-color: rgb(141, 94, 33) !important;
+    
         
     
   }
@@ -201,6 +210,8 @@ footer {
         column-count: 1;
     }
 }
+
+
 
   
   
