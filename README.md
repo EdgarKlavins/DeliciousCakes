@@ -63,6 +63,11 @@ Unsplash: https://unsplash.com
 
 ## Testing
 
+### W3C CSS Validator
+<br>
+
+
+
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -71,7 +76,21 @@ Unsplash: https://unsplash.com
     </a>
 </p>
 <br>
-<img src="assets/images/HTML-check.png">
+<img src="assets/images/Jigsaw.jpg">
+
+<br>
+
+### W3C HTML Validator
+
+#### Home page
+
+<img src="assets/images/HTML-home.jpg">
+
+<br>
+
+#### Gallery
+
+
 
 # Deployment
 
