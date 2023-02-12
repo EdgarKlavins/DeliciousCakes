@@ -90,6 +90,17 @@ Unsplash: https://unsplash.com
 
 #### Gallery
 
+<img src="assets/images/Html-gallery.jpg">
+
+<br>
+
+
+### Lighthouse
+
+<img src="assets/images/lighthouse.jpg">
+<br>
+
+
 
 
 # Deployment
@@ -147,4 +158,4 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 ## Acknowledgements
 
 
-Thanks to Code institute and Bristol College for for their support.
+Thanks to Code institute and Bristol College for their support.
