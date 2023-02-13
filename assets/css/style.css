@@ -96,9 +96,18 @@ body {
 }
 
 
+.profile-avatar {
+    border-radius: 50%;
+}
+
+
+
+
 .quotes-container {
     background-color: rgb(226, 159, 14);
 }
+
+
 
 .cakes-container {
     background: url("/assets/images/Cake.jpg") no-repeat center fixed;
